@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" parallel="none">
+
+    <test name="Chrome Testing">
+        <parameter name="browser" value="firefox"/>
+        <classes>
+
+            <class name="TestSuite.Yahoo_ActionItem_103118"/>
+            <!-- <class name="TestSuite.Yahoo_Search"/>-->
+        </classes>
+
+    </test>
+</suite>
